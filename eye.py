@@ -1,5 +1,5 @@
 import os
-os.inviron['TF_ENABLE_ONEDNN_OPTS'] = '0'
+os.environ['TF_ENABLE_ONEDNN_OPTS'] = '0'
 
 from PIL import Image
 from flask import Flask, request, jsonify
