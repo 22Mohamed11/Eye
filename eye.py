@@ -10,7 +10,7 @@ import keras
 
 app = Flask(__name__)
 
-model = keras.models.load_model('eyee.keras')
+model = keras.models.load_model('eye.keras')
 
 # Define class labels
 class_labels = ['Uveitis', 'Normal_Eyee']
